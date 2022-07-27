@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  /* background-color: rgb(16, 15, 15); */
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  display: flex; 
+  flex-direction: column; 
+  max-width: 400px; 
+  margin: auto;
+}
+
+.imagePreview {
+  position: relative;
+  width: 200px;
+}
+
+.imagePreview img {
+  width: 100%;
+}
+
+.imagePreview button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+form > * {
+  margin: 10px 0;
+}
+
+img {
+  max-width: 400px;
+  margin: auto;
+}
